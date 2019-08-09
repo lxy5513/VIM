@@ -12,12 +12,12 @@ let g:jedi#usages_command = '<Leader>u'
 
 
 ## F键的使用
-" F3打开目录树
-" F4：使用 cmake 生成 Makefile
-" F5运行脚本 //debug c++ <leader>F5
-" F6：项目：测试 F5 : 单个文件的编译运行
-" F7：项目：编译
-" F8：项目：运行
-" F9 打开tagbar 必须先安装ctags
-" F10 打开/关闭 Quickfix 窗口
+" F3打开目录树  
+" F4：使用 cmake 生成 Makefile  
+" F5运行脚本 //debug c++ <leader>F5  
+" F6：项目：测试 F5 : 单个文件的编译运行  
+" F7：项目：编译  
+" F8：项目：运行  
+" F9 打开tagbar 必须先安装ctags  
+" F10 打开/关闭 Quickfix 窗口  
 
