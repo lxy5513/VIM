@@ -36,7 +36,10 @@ python3 install.py --all
 ```
 
 <br>
+
 设置 .vimrc
+
+
 ```
 let g:ycm_use_clang = 0
 " show autocomplete from c++ headers file in /usr/include
