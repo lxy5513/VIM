@@ -120,7 +120,8 @@ autocmd VimEnter * if !argc() | NERDTree | endif  " Load NERDTree only if vim is
 nmap <F3> :NERDTreeToggle<CR>
 
 """ F9 打开tagbar 必须先安装ctags
-let g:Tlist_Ctags_Cmd='/usr/local/Cellar/ctags/5.8_1/bin/ctags'
+" let g:Tlist_Ctags_Cmd='/home/xyliu/PATH/ctags-5.8/bin/ctags'
+let g:tagbar_ctags_bin="/home/xyliu/PATH/ctags-5.8/bin/ctags"
 nmap <F9> :TagbarToggle<CR> 
 
 """ F5运行脚本
