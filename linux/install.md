@@ -38,7 +38,6 @@ python3 install.py --all
 <br>
 设置 .vimrc
 ```
-""" YCM
 let g:ycm_use_clang = 0
 " show autocomplete from c++ headers file in /usr/include
 let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/third_party/ycmd/.ycm_extra_conf.py'
@@ -52,5 +51,4 @@ let g:ycm_goto_buffer_command = 'horizontal-split'
 " nnoremap <leader>jd :YcmCompleter GoToDefinition<CR>
 nnoremap <leader>d :YcmCompleter GoToDefinitionElseDeclaration<CR>
 nnoremap <leader>gd :YcmCompleter GoToDeclaration<CR>
-
 ```
