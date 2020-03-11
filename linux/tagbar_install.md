@@ -1,4 +1,5 @@
 1. download ctags-5.8.tar.gz 
+   wget https://fossies.org/linux/misc/ctags-5.8.tar.gz 
 
 
 2. decompose   
